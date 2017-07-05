@@ -3,8 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>mouse-focused example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="mouse-focused.js"></script>
+    <style>
+        input:focus {
+            outline-color: red;
+        }
+
+        input:focus + label:after {
+            content: 'keyboard focused';
+        }
+
+        input.is-mouse-focused:focus {
+            outline: none;
+        }
+
+        input.is-mouse-focused + label:after {
+            content: 'mouse focused';
+        }
+    </style>
 </head>
 <body>
-<h1>mouse-focused</h1>
+<h1 class="component-header">mouse-focused</h1>
+
+<p>
+    <input id="text1" type="text">
+    <label for="text1"></label>
+</p>
+<p>
+    <input id="text2" type="text">
+    <label for="text2"></label>
+</p>
+<p>
+    <input id="text3" type="text">
+    <label for="text3"></label>
+</p>
+
+
 </body>
 </html>

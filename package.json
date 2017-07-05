@@ -1,0 +1,22 @@
+{
+  "name": "competentum-github-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/competentum/competentum.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/competentum/competentum.github.io/issues"
+  },
+  "homepage": "https://github.com/competentum/competentum.github.io#readme",
+  "devDependencies": {
+    "mouse-focused": "^1.0.8"
+  }
+}
